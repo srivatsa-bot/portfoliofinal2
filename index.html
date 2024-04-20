@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/srivatsa-bot" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/srivatsa-reddy-bokkasam-33a1542b9/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:srivatsa@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi,I'm B.Srivatsa 👋</h2>
+        <p>Hey there, I'm B. Srivatsa, a second-year computer science student at Vellore Institute of Technology. I'm really passionate about technology and always exploring new things in the field, from coding to the latest innovations.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#project">
+            <i class="fa-solid fa-pen"></i>
+            <span>Project</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/me.jpg" alt="me-headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Skills I have acquired since the start of my college life.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/python.png" alt="python logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/java.png" alt="java logo">
+          <span>Java</span>
+        </div>
+        <div class="cell">
+          <img src="images/c.png" alt="c logo">
+          <span>C/C++</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: project -->
+    <section id="project" class="project-section">
+      <h2>Project's</h2>
+
+     <div>
+        <div class="text">
+          <ul id="proj1">
+            <li><a href="https://github.com/srivatsa-bot/dice-roller">Dice-roller</a></li>
+            <li><a href="https://github.com/srivatsa-bot/counter-program">counter-program</a></li>
+            <li><a href="https://github.com/srivatsa-bot/LIve-Weather-App/tree/main">Live Weather App </a></li>
+            <li><a href="https://github.com/srivatsa-bot/cybersecurity-platform">cybersecurity-platform </a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          If you're interested, don't hesitate to contact me 😊.
+        </div>
+
+        <form id="formSubmit"> 
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="4"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
